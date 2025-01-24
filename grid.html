@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        *{
+            font-family: sans-serif;
+            color: white;
+            font-size: 50px;
+            align-content: content;
+            border-radius: 10px;
+            text-align: center;
+            align-content: center;
+            text-shadow: 2px 2px 3px black;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 10cm 20cm 10cm;
+            grid-template-rows: 3cm 15cm 3cm;
+            row-gap: 10px;
+            column-gap: 10px;
+            
+        }
+        .d1{
+            background-color:cornflowerblue;
+            grid-column-start: 1;
+            grid-column-end: 4; /*ending+1*/
+            text-align: center;
+            align-content: center;
+        }
+        .d2{
+            background-color:rgb(232, 155, 249);
+        }
+        .d3{
+            background-color:rgb(91, 245, 180);
+        }
+        .d4{
+            background-color:rgb(248, 110, 135);
+        }
+        .d5{
+            background-color:rgb(255, 211, 128);
+            grid-column-start: 1;
+            grid-column-end: 4; /*ending+1*/
+        }
+
+    </style> -->
+    <style>
+        *{
+            color: white;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            border-radius: 10px;
+            align-content: center;
+            text-shadow: 1px 2px 5px black;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 4cm 7cm 7cm 7cm 7cm 7cm 7cm;
+            grid-template-rows: 2cm 2cm 2cm 6cm 2cm; 
+            gap: 15px;
+            background: #000;
+            padding: 20px;
+            inline-size: fit-content;
+            
+        }
+        .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10,.d11,.d12{
+            background-color: rgb(255, 255, 61);
+        }
+        .d1:hover, .d2:hover, .d3:hover, .d4:hover, .d5:hover, 
+        .d6:hover, .d7:hover, .d8:hover, .d9:hover, .d10:hover, 
+        .d11:hover, .d12:hover {
+            background-color: rgb(255, 255, 255);
+            transition: 0.5s;
+            color: #000;
+            text-shadow: 1px 2px 5px rgb(255, 255, 255);
+}
+        /*FOR SELECTING MULTIPLE CLASSES AT ONCE*/
+        
+        .d1{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(170, 255, 114); */
+                grid-column-start: 1;
+                grid-row-start: 1;
+                grid-row-end: 4;
+            }
+            .d2{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(255, 143, 143); */
+                grid-column-start: 2;
+                grid-column-end: 6;
+            }
+            .d3{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(113, 255, 215); */
+                grid-row-start: 2;
+                grid-column-start: 2;
+                grid-column-end: 5;
+            }
+            .d4{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(99, 207, 253); */
+                grid-row-start: 3;
+            }
+            .d5{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(99, 207, 253); */
+                grid-row-start: 3;
+            }
+            .d5{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(99, 207, 253); */
+                grid-row-start: 3;
+            }
+            .d6{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(99, 207, 253); */
+                grid-row-start: 3;
+            }
+            .d7{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(99, 207, 253); */
+                grid-row-start: 3;
+            }
+            .d8{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(99, 207, 253); */
+                grid-row-start: 3;
+            }
+            .d9{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(99, 207, 253); */
+                grid-row-start: 3;
+            }
+            .d10{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(222, 76, 255); */
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            .d11{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(255, 124, 179); */
+                grid-column-start: 2;
+                grid-column-end: 8;
+                
+            }
+            .d12{
+                /* box-shadow: 2px 1px 3px black; */
+                /* background-color: rgb(255, 241, 111); */
+                grid-column-start: 2;
+                grid-column-end: 8;
+            }
+            
+        
+    </style>
+</head>
+<body>
+    <!-- <div class="main">
+        <div class="d1">Header</div>
+        <div class="d2">Left</div>
+        <div class="d3">Mid</div>
+        <div class="d4">Right</div>
+        <div class="d5">Footer</div>
+    </div> -->
+
+
+    <div class="main">
+        <div class="d1">Logo</div>
+        <div class="d2">2</div>
+        <div class="d3">21</div>
+        <div class="d4">3</div>
+        <div class="d5">4</div>
+        <div class="d6">5</div>
+        <div class="d7">6</div>
+        <div class="d8">7</div>
+        <div class="d9">8</div>
+        <div class="d10">Navigation</div>
+        <div class="d11">Content</div>
+        <div class="d12">Footer</div>
+    </div>
+</body>
+</html>
